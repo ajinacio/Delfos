@@ -1,0 +1,163 @@
+﻿namespace DelfosForm
+{
+    partial class FrmBalancete
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnProcessar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txbMes = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txbAno = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.panel1.Controls.Add(this.txbAno);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.txbMes);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnFechar);
+            this.panel1.Controls.Add(this.btnSair);
+            this.panel1.Controls.Add(this.btnProcessar);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(10, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(260, 180);
+            this.panel1.TabIndex = 1;
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Location = new System.Drawing.Point(189, 136);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(51, 21);
+            this.btnFechar.TabIndex = 16;
+            this.btnFechar.Text = "Fechar";
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(23, 136);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(51, 21);
+            this.btnSair.TabIndex = 15;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnProcessar
+            // 
+            this.btnProcessar.Location = new System.Drawing.Point(23, 107);
+            this.btnProcessar.Name = "btnProcessar";
+            this.btnProcessar.Size = new System.Drawing.Size(217, 23);
+            this.btnProcessar.TabIndex = 14;
+            this.btnProcessar.Text = "Processar";
+            this.btnProcessar.UseVisualStyleBackColor = true;
+            this.btnProcessar.Click += new System.EventHandler(this.btnProcessar_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label1.Location = new System.Drawing.Point(78, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 20);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Balancete";
+            // 
+            // txbMes
+            // 
+            this.txbMes.Location = new System.Drawing.Point(58, 61);
+            this.txbMes.Name = "txbMes";
+            this.txbMes.Size = new System.Drawing.Size(42, 20);
+            this.txbMes.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(20, 62);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Mês:";
+            // 
+            // txbAno
+            // 
+            this.txbAno.Location = new System.Drawing.Point(164, 61);
+            this.txbAno.Name = "txbAno";
+            this.txbAno.Size = new System.Drawing.Size(59, 20);
+            this.txbAno.TabIndex = 20;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(129, 62);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Ano:";
+            // 
+            // FrmBalancete
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(280, 200);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmBalancete";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmBalancete";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox txbAno;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txbMes;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnProcessar;
+        private System.Windows.Forms.Label label1;
+    }
+}
